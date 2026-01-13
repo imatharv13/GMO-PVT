@@ -1,0 +1,67 @@
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  text-align: center;
+  margin: 0;
+  color: #333;
+}
+
+.selected-counter {
+  font-size: 0.95rem;
+  color: #495057;
+  background-color: #f1f3f5;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid #dee2e6;
+}
+
+.selected-counter__value {
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.p-datatable {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #495057;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+  transition: background-color 0.2s;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #f8f9fa;
+}
+
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background-color: #e3f2fd;
+}
+
+.p-paginator {
+  background: white;
+  border-top: 1px solid #dee2e6;
+  padding: 1rem;
+}
+
+.p-button {
+  margin: 0 0.25rem;
+}
